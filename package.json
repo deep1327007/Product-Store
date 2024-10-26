@@ -2,7 +2,7 @@
 	"name": "product_store",
 	"version": "1.0.0",
 	"description": "",
-	"main": "/frontend/index.html",
+	"main": "backend/server.js",
 	"scripts": {
 		"dev": "NODE_ENV=development node backend/server.js",
 		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
@@ -23,3 +23,4 @@
 		"nodemon": "^3.1.4"
 	}
 }
+
